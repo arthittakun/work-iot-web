@@ -1,0 +1,61 @@
+body {
+    background-color: #DEF5E5;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 380px;
+    padding: 40px;
+    margin: 100px auto 20px auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #8EC3B0;
+}
+
+.form-control {
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.btn-custom {
+    background-color: #8EC3B0;
+    color: white;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #9ED5C5;
+}
+
+.google-signin-button {
+    width: 90%;
+    display: inline-block;
+    background-color: #4285F4; /* สีพื้นหลังสไตล์ Google */
+    color: white; /* สีข้อความ */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    font-size: 16px; /* ขนาดข้อความ */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 25px; /* มุมโค้ง */
+    text-decoration: none; /* ลบขีดเส้นใต้ */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    font-family: Arial, sans-serif; /* ฟอนต์ */
+    cursor: pointer; /* เปลี่ยนเมาส์เมื่อชี้ */
+    transition: background-color 0.3s; /* เพิ่มแอนิเมชันเมื่อโฮเวอร์ */
+}
+
+.google-signin-button:hover {
+    background-color: #3367D6; /* สีเมื่อโฮเวอร์ */
+}
+
+.google{
+    text-align: center;
+    margin-top: 20px;
+}
